@@ -110,12 +110,14 @@ This is the solution to problem statement given by Gojek to create an automatic 
 ### Test Cases Usage:
  The Exceptions are handled keeping actual real life scenario in mind:
  
- - Parking Lot Once Created Cannot be override.
+ - Parking Lot Once Created Cannot be override (Singleton class).
+
  - Empty Slot Cannot be Emptied again.
  - Car with same Registration number is not allowed.
  - Car number not available in any slot then should throw error.
  - Slot will not be given if registration number or colour of the vehicle is not available.
  - Same slot is not provided for two different cars.
  - For Integration testing commands are checked for any invalid command or argument.
- 
-
+ - No Slots to be allocated if parking lot is full.
+ - One Ticket to be generated per Car at a time (Singleton Class) to be passed to one thread at a time. 
+ - No child threads are created so one operation at a time.
