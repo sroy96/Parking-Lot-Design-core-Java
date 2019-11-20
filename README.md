@@ -1,8 +1,8 @@
-#Parking Lot Design Doc
+# Parking Lot Design Doc
 
 This is the solution to problem statement given by Gojek to create an automatic ticketing system.
 
-##Problem Statement:
+## Problem Statement:
 
 
 - A parking lot can hold up to 'n' cars at any given point in time
@@ -23,21 +23,21 @@ This is the solution to problem statement given by Gojek to create an automatic 
 - The interactive command prompt will also exit if any incorrect command is provided
 - Sample Test Cases & outputs are provied at the end of this file.
 
-##Getting Started with the Setup
+## Getting Started with the Setup
 
 - Instructions to setup the project in local machine and run the test file
 
-###System Requirements:
+### System Requirements:
 - Java 1.8
 - Apache Maven 
 - Git (For Version Control)
 
-###Running the Test Cases:
+### Running the Test Cases:
 - Run the command bin/setup to install the build the project (Java, Maven assumed to be pre-installed on the system)
    ````
    ./bin/setup
    ````
-###Running with Bash
+### Running with Bash
 ````
 ./bin/setup java -jar ../target/gojek_parking_lot-1.0-SNAPSHOT
 ````
@@ -51,7 +51,7 @@ This is the solution to problem statement given by Gojek to create an automatic 
 - [Maven](https://maven.apache.org/) - Build/Dependency Management
 
 
-###Sample Test Cases & Outputs for Reference
+### Sample Test Cases & Outputs for Reference
 - Sample Case is incorporated into /functional_spec/fixtures/file_input.txt 
 - To give custom input edit the main file configuration => edit configuration => (remove) the project arguments .
 
@@ -107,7 +107,7 @@ This is the solution to problem statement given by Gojek to create an automatic 
 
 			$ exit
 			
-###Test Cases Usage:
+### Test Cases Usage:
  The Exceptions are handled keeping actual real life scenario in mind:
  
  - Parking Lot Once Created Cannot be override.
