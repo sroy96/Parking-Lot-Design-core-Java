@@ -67,7 +67,7 @@ public class TicketService {
         }
 
 
-            int assignedSlotNumber = parkinglotService.fillAvailableSlot();
+
             boolean check= true;
 
                 for (Ticket ticket : ticketMap.values()) {
@@ -76,6 +76,7 @@ public class TicketService {
                     }
                  }
                 if(check) {
+                    int assignedSlotNumber = parkinglotService.fillAvailableSlot();
                     Ticket ticket = new Ticket(assignedSlotNumber, vehicle);
 
                     ticketMap.put(assignedSlotNumber, ticket);
