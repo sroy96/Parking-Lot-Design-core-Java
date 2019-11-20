@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-
+                        <!--configuration setup-->
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                             <mainclass>com.parkinglot.Gojek</mainclass>
