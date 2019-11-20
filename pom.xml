@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <!--functional_spec\fixtures\file_input.txt-->
+
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                             <mainclass>com.parkinglot.Gojek</mainclass>
